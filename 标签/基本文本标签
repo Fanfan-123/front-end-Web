@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>myself-html</title>
+	</head>
+	<body>
+		<!--标题标签-->
+		<h1>一级标题</h1>
+		<h2>二级标题</h2>
+		<h3>三级标题</h3>
+		<h4>四级标题</h4>
+		<h5>五级标题</h5>
+		<h6>六级标题</h6>
+		
+		<!--段落标签，有换行作用-->
+		<p>我想去西藏。</p>
+		<p>去看沿途风景。</p>
+		
+		<!--段落缩进-->
+		<blockquote>但是我还没有做攻略。</blockquote>
+		<!--引用标签-->
+		<q>没有攻略。</q>
+		
+		<!--滚动标签-->
+		<!--marquee
+			常见属性：
+			  behavior：滚动的方式
+			           alternate：来回滚动
+			           slide：滚动到一边停下
+			           scroll：交替滚动
+			  loop：滚动的次数
+			  scrollamount：滚动的速度，整数
+			  direction：滚动的方向，不指定该属性默认从右到左进行滚动。
+			  bgcolor：背景颜色
+		-->
+		<marquee
+			behavior = "alternate"
+			direction = "rigth"
+			bgcolor = "red">
+			我可能只是想出去透透气。
+		</marquee>
+		
+		
+		<!--地址标签，字体自动变斜-->
+		<address>陕西省西安市</address>
+		
+		<!--上下标-->
+		x<sup>2</sup>
+		x<sub>2</sub>
+		
+		<!--换行标签-->
+		<br />
+		<!--空格标签-->
+		1&nbsp;2&nbsp;3
+		<!--水平线标签-->
+		<hr />
+		<!--html中常用的转义字符
+	              空格:&nbsp;
+	              版权所有©:&copy;
+	              注册商标 ®:&reg;
+        -->
+        
+        <!--pre：原样输出，将内容原封不动的进行输出-->
+        <pre>123456789</pre>
+        
+        <!--有序列表 和 无需列表-->
+        
+        <!--有序-->
+        <ol type="运动">
+        	<li>足球</li>
+        	<li>篮球</li>
+        	<li>跑步</li>
+        </ol>
+        <!--无序-->
+        <ul>
+        	<li>小明</li>
+        	<li>小红</li>
+        	<li>lisa</li>
+        </ul>
+      
+        <!--项目组织架构列表：
+	       dl dt dd
+        -->
+        <dl>
+        	<dt>复仇者联盟</dt>
+        	<dd>复仇者联盟1</dd>
+        	<dd>复仇者联盟2</dd>
+        </dl>
+        
+        <div>div1</div>
+<div>div2</div>
+<span>span1</span>
+<span>span2</span>
+        
+	</body>
+</html>

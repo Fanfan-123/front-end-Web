@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图片标签</title>
+		<script>
+			function hideImg(){
+				var img = document.getElementById("me");
+				img.style.display="none";
+			}
+			function showImg(){
+				var img = document.getElementById("me");
+				img.style.display="block";
+			}
+		</script>
+	</head>
+	<body>
+		<img style="display: none;"
+			src="img/me.jpg"
+			width="100" />
+			
+		<img id="me"
+			title="这是我的照片"
+			src="img/1558972540568.jpg"
+			alt="这是一张自拍"
+			width="100" 
+		/>
+		<button id="hide" onclick="hideImg()">隐藏</button>
+		<button id="show" onclick="showImg()">显示</button>
+	</body>
+</html>

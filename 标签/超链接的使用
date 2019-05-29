@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>超链接标签</title>
+	</head>
+	<body>
+		<a name="top"></a><br />
+		<a href="#foot"><font color="red">[跳到底部]</font></a><br />
+		<a href="03-body的背景属性.html#list">跳转到03页面</a><br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<a name="foot"></a><br />
+		<address>陕西省西安市</address>
+		<a href="#top"><font color="red">[返回顶部]</font></a><br />
+	</body>
+</html>
